@@ -26,3 +26,6 @@ months = ("January", "February", "March", "April", "May", "June", "July", "Augus
 
 def number_to_full_month_name(month):
     return months[month -1]
+
+def number_to_short_month_name(month_num):
+   return months[month_num -1][:3]
